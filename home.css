@@ -2,5 +2,16 @@ h1{
     border: 2px solid black;
 }
 body{
+    color:red;
  text-align: center;
+ /*
+ image is not good so removed it
+ background-image: url(./background_image.png);
+ backgroung-repeat:norepeat;
+ */
+}
+.mahender{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
 }
