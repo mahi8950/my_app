@@ -1,17 +1,38 @@
-h1{
-    border: 2px solid black;
-}
+
 body{
     color:red;
  text-align: center;
+}
+#good{
+    color: black;
+}
  /*
  image is not good so removed it
  background-image: url(./background_image.png);
  backgroung-repeat:norepeat;
  */
-}
-.mahender{
+/*.mahender{
     color:green;
     background-color: transparent;
     text-decoration: none;
-}
+}*/
+    a:link{
+        color: rgb(221, 24, 24);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited{
+        color:pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover{
+        color: yellow;
+        background-color: rgb(50, 66, 205);
+        text-decoration: underline;
+    }
+    a:active{
+        color: white;
+        background-color: transparent;
+        text-decoration: dashed;
+    }
